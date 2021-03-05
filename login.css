@@ -1,0 +1,97 @@
+.container{
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border: 1px solid gainsboro;
+  border-radius: 50px;
+  background-color: rgb(240, 229, 216);
+}
+.center{
+    justify-content: center;
+    text-align: center;
+    width:100%;
+    height: 5px;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+.signin{
+    margin-left: 0px;
+    justify-content:center;
+    font-weight: bold;
+    font-size: large;
+}
+.form{
+    text-align: center;
+    width:100%;
+    height: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+input[type="text"]{
+  padding: 10px;
+  width: 300px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+input[type="text"]:focus {
+    outline: none;
+}
+input[type="password"]{
+  padding: 10px;
+  width: 300px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+input[type="password"]:focus {
+    outline: none;
+}
+input[type="submit"]{
+    padding: 10px;
+    width: 150px;
+    border-radius: 50px;
+    cursor: pointer; 
+    margin-top: 10px; 
+}
+input[type="submit"]:focus {
+    outline: none;
+}
+input[type="submit"]:hover{
+  background-color: rgb(189, 230, 219);
+  color: black;
+}
+.create{
+    justify-content: end; 
+    margin-left: 10px;
+}
+#footer{
+    display: flex;
+    width: 100%;
+    height:50px;
+    position:absolute;
+    bottom:0;
+    justify-content: center;
+}
+.bottomleft{
+    background-color:white;
+    color: black;
+    
+}
+.bottomright{
+    background-color:white;
+    color: black;
+
+}
+.learn{
+    text-align: left;
+    margin-left: 3rem;
+    cursor: pointer;
+    color: cadetblue;
+}
+.align-footer{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
